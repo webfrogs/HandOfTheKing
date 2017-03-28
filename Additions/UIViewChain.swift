@@ -10,14 +10,14 @@ import UIKit
 import SnapKit
 
 extension UIView: NamespaceWrappable { }
-extension TypeWrapperProtocol where WrappedType: UIView {
-    public func adhere(toSuperView: UIView) -> WrappedType {
+extension NamespaceWrapper where T: UIView {
+    public func adhere(toSuperView: UIView) -> T {
         toSuperView.addSubview(wrappedValue)
         return wrappedValue
     }
 
     @discardableResult
-    public func layout(snapKitMaker: (ConstraintMaker) -> Void) -> WrappedType {
+    public func layout(snapKitMaker: (ConstraintMaker) -> Void) -> T {
         wrappedValue.snp.makeConstraints { (make) in
             snapKitMaker(make)
         }
@@ -25,7 +25,7 @@ extension TypeWrapperProtocol where WrappedType: UIView {
     }
 
     @discardableResult
-    public func config(_ config: (WrappedType) -> Void) -> WrappedType {
+    public func config(_ config: (T) -> Void) -> T {
         config(wrappedValue)
         return wrappedValue
     }

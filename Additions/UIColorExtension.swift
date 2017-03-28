@@ -9,7 +9,7 @@
 import UIKit
 
 extension UIColor: NamespaceWrappable { }
-extension TypeWrapperProtocol where WrappedType: UIColor {
+extension NamespaceWrapper where T: UIColor {
     public static func color(hex: String) -> UIColor {
         let defaultColor = UIColor.clear
 

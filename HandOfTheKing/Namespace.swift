@@ -23,14 +23,7 @@ public extension NamespaceWrappable {
     }
 }
 
-
-public protocol TypeWrapperProtocol {
-    associatedtype WrappedType
-    var wrappedValue: WrappedType { get }
-    init(value: WrappedType)
-}
-
-public struct NamespaceWrapper<T>: TypeWrapperProtocol {
+public struct NamespaceWrapper<T> {
     public let wrappedValue: T
     public init(value: T) {
         self.wrappedValue = value
