@@ -33,4 +33,10 @@ extension NamespaceWrapper where T == String {
         let endIndex = index(by: with.upperBound)
         return String(wrappedValue[startIndex..<endIndex])
     }
+
+    public func substring(with: CountableClosedRange<Int>) -> String {
+        let startIndex = index(by: with.lowerBound)
+        let endIndex = index(by: with.upperBound)
+        return String(wrappedValue[startIndex...endIndex])
+    }
 }

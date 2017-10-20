@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		C379E1511E82998D003F00C7 /* HandOfTheKing.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C379E1471E82998D003F00C7 /* HandOfTheKing.framework */; };
-		C379E1561E82998D003F00C7 /* HandOfTheKingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C379E1551E82998D003F00C7 /* HandOfTheKingTests.swift */; };
 		C379E1581E82998D003F00C7 /* HandOfTheKing.h in Headers */ = {isa = PBXBuildFile; fileRef = C379E14A1E82998D003F00C7 /* HandOfTheKing.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C379E1631E829EEB003F00C7 /* RxCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C379E1621E829EEB003F00C7 /* RxCocoa.framework */; };
 		C379E1651E829EF4003F00C7 /* RxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C379E1641E829EF4003F00C7 /* RxSwift.framework */; };
@@ -20,6 +19,10 @@
 		C379E17F1E82C008003F00C7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C379E17D1E82C008003F00C7 /* LaunchScreen.storyboard */; };
 		C379E1861E82C04F003F00C7 /* HandOfTheKing.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C379E1471E82998D003F00C7 /* HandOfTheKing.framework */; };
 		C379E1871E82C04F003F00C7 /* HandOfTheKing.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = C379E1471E82998D003F00C7 /* HandOfTheKing.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		C3969C381F99BA8200716A2A /* StringExtensionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3969C371F99BA8200716A2A /* StringExtensionTests.swift */; };
+		C3969C3A1F99BC4100716A2A /* SnapKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = C379E1661E829F01003F00C7 /* SnapKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		C3969C3B1F99BC5E00716A2A /* RxSwift.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = C379E1641E829EF4003F00C7 /* RxSwift.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		C3969C3C1F99BC6800716A2A /* RxCocoa.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = C379E1621E829EEB003F00C7 /* RxCocoa.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		C39916591E82C0A30064EFD0 /* SnapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C379E1661E829F01003F00C7 /* SnapKit.framework */; };
 		C399165A1E82C0A30064EFD0 /* SnapKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = C379E1661E829F01003F00C7 /* SnapKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		C399165B1E82C0A30064EFD0 /* RxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C379E1641E829EF4003F00C7 /* RxSwift.framework */; };
@@ -64,6 +67,19 @@
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		C3969C391F99BC2C00716A2A /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				C3969C3C1F99BC6800716A2A /* RxCocoa.framework in Embed Frameworks */,
+				C3969C3B1F99BC5E00716A2A /* RxSwift.framework in Embed Frameworks */,
+				C3969C3A1F99BC4100716A2A /* SnapKit.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
@@ -71,7 +87,6 @@
 		C379E14A1E82998D003F00C7 /* HandOfTheKing.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HandOfTheKing.h; sourceTree = "<group>"; };
 		C379E14B1E82998D003F00C7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C379E1501E82998D003F00C7 /* HandOfTheKingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HandOfTheKingTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		C379E1551E82998D003F00C7 /* HandOfTheKingTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HandOfTheKingTests.swift; sourceTree = "<group>"; };
 		C379E1571E82998D003F00C7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C379E1621E829EEB003F00C7 /* RxCocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxCocoa.framework; path = Carthage/Build/iOS/RxCocoa.framework; sourceTree = "<group>"; };
 		C379E1641E829EF4003F00C7 /* RxSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxSwift.framework; path = Carthage/Build/iOS/RxSwift.framework; sourceTree = "<group>"; };
@@ -83,6 +98,7 @@
 		C379E17B1E82C008003F00C7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C379E17E1E82C008003F00C7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C379E1801E82C008003F00C7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C3969C371F99BA8200716A2A /* StringExtensionTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringExtensionTests.swift; sourceTree = "<group>"; };
 		C399165F1E82C1C10064EFD0 /* Namespace.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Namespace.swift; sourceTree = "<group>"; };
 		C39916621E82C1CA0064EFD0 /* UIViewChain.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewChain.swift; sourceTree = "<group>"; };
 		C39916641E82C3AE0064EFD0 /* UIColorExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIColorExtension.swift; sourceTree = "<group>"; };
@@ -157,8 +173,8 @@
 		C379E1541E82998D003F00C7 /* HandOfTheKingTests */ = {
 			isa = PBXGroup;
 			children = (
-				C379E1551E82998D003F00C7 /* HandOfTheKingTests.swift */,
 				C379E1571E82998D003F00C7 /* Info.plist */,
+				C3969C371F99BA8200716A2A /* StringExtensionTests.swift */,
 			);
 			path = HandOfTheKingTests;
 			sourceTree = "<group>";
@@ -235,6 +251,7 @@
 				C379E14C1E82998D003F00C7 /* Sources */,
 				C379E14D1E82998D003F00C7 /* Frameworks */,
 				C379E14E1E82998D003F00C7 /* Resources */,
+				C3969C391F99BC2C00716A2A /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -282,7 +299,7 @@
 					};
 					C379E14F1E82998D003F00C7 = {
 						CreatedOnToolsVersion = 8.2.1;
-						ProvisioningStyle = Automatic;
+						ProvisioningStyle = Manual;
 					};
 					C379E1711E82C008003F00C7 = {
 						CreatedOnToolsVersion = 8.2.1;
@@ -354,7 +371,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C379E1561E82998D003F00C7 /* HandOfTheKingTests.swift in Sources */,
+				C3969C381F99BA8200716A2A /* StringExtensionTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -570,10 +587,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = HandOfTheKingTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.nswebfrog.HandOfTheKingTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -582,10 +602,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = HandOfTheKingTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.nswebfrog.HandOfTheKingTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
