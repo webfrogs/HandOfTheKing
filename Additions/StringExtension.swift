@@ -21,16 +21,16 @@ extension NamespaceWrapper where T == String {
     }
 
     public func substring(from: Int) -> String {
-        return wrappedValue.substring(from: index(by: from))
+        return String(wrappedValue[index(by: from)...])
     }
 
     public func substring(to: Int) -> String {
-        return wrappedValue.substring(to: index(by: to))
+        return String(wrappedValue[..<index(by: to)])
     }
 
     public func substring(with: Range<Int>) -> String {
         let startIndex = index(by: with.lowerBound)
         let endIndex = index(by: with.upperBound)
-        return wrappedValue.substring(with: startIndex..<endIndex)
+        return String(wrappedValue[startIndex..<endIndex])
     }
 }
