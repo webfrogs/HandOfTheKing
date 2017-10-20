@@ -16,15 +16,15 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view, typically from a nib.
 
         UILabel()
-            .hk.adhere(toSuperView: self.view)
-            .hk.layout { (make) in
+            .hand.adhere(toSuperView: self.view)
+            .hand.layout { (make) in
                 make.top.equalTo(self.view).offset(100)
                 make.centerX.equalTo(self.view)
                 make.width.equalTo(80)
                 make.height.equalTo(40)
             }
-            .hk.config { (label) in
-                label.backgroundColor = UIColor.hk.color(hex: "#f0f0f0")
+            .hand.config { (label) in
+                label.backgroundColor = UIColor.hand.color(hex: "#f0f0f0")
                 label.text = "test"
             }
 

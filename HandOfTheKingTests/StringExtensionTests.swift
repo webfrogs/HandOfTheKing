@@ -24,24 +24,24 @@ class StringExtensionTests: XCTestCase {
     func testSubstringFrom() {
         let originStr = "This is some text."
 
-        XCTAssertEqual(originStr.hk.substring(from: 2), "is is some text.")
-        XCTAssertEqual(originStr.hk.substring(from: 5), "is some text.")
-        XCTAssertEqual(originStr.hk.substring(from: originStr.count), "")
+        XCTAssertEqual(originStr.hand.substring(from: 2), "is is some text.")
+        XCTAssertEqual(originStr.hand.substring(from: 5), "is some text.")
+        XCTAssertEqual(originStr.hand.substring(from: originStr.count), "")
     }
 
     func testSubstringTo() {
         let originStr = "This is some text."
 
-        XCTAssertEqual(originStr.hk.substring(to: 2), "Th")
-        XCTAssertEqual(originStr.hk.substring(to: 5), "This ")
+        XCTAssertEqual(originStr.hand.substring(to: 2), "Th")
+        XCTAssertEqual(originStr.hand.substring(to: 5), "This ")
     }
 
     func testSubStringWith() {
         let originStr = "This is some text."
 
-        XCTAssertEqual(originStr.hk.substring(with: 0...3), "This")
-        XCTAssertEqual(originStr.hk.substring(with: 3...7), "s is ")
-        XCTAssertEqual(originStr.hk.substring(with: 1..<8), "his is ")
+        XCTAssertEqual(originStr.hand.substring(with: 0...3), "This")
+        XCTAssertEqual(originStr.hand.substring(with: 3...7), "s is ")
+        XCTAssertEqual(originStr.hand.substring(with: 1..<8), "his is ")
     }
     
 }

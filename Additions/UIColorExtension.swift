@@ -19,15 +19,15 @@ extension NamespaceWrapper where T: UIColor {
 
         switch hexColorText {
         case let text where text.hasPrefix("0x"):
-            hexColorText = text.hk.substring(from: 2)
+            hexColorText = text.hand.substring(from: 2)
 
         case let text where text.hasPrefix("#"):
-            hexColorText = text.hk.substring(from: 1)
+            hexColorText = text.hand.substring(from: 1)
         default:
             break
         }
 
-        guard hexColorText.hk.match(regex: "[0-9a-f]{6}") else {
+        guard hexColorText.hand.match(regex: "[0-9a-f]{6}") else {
             return defaultColor
         }
 
@@ -36,9 +36,9 @@ extension NamespaceWrapper where T: UIColor {
         var g: UInt32 = 0
         var b: UInt32 = 0
 
-        guard Scanner(string: hexColorText.hk.substring(with: 0..<2)).scanHexInt32(&r)
-        , Scanner(string: hexColorText.hk.substring(with: 2..<4)).scanHexInt32(&g)
-        , Scanner(string: hexColorText.hk.substring(with: 4..<6)).scanHexInt32(&b)
+        guard Scanner(string: hexColorText.hand.substring(with: 0..<2)).scanHexInt32(&r)
+        , Scanner(string: hexColorText.hand.substring(with: 2..<4)).scanHexInt32(&g)
+        , Scanner(string: hexColorText.hand.substring(with: 4..<6)).scanHexInt32(&b)
         else {
             return defaultColor
         }

@@ -9,16 +9,16 @@
 
 public protocol NamespaceWrappable {
     associatedtype WrapperType
-    var hk: WrapperType { get }
-    static var hk: WrapperType.Type { get }
+    var hand: WrapperType { get }
+    static var hand: WrapperType.Type { get }
 }
 
 public extension NamespaceWrappable {
-    var hk: NamespaceWrapper<Self> {
+    var hand: NamespaceWrapper<Self> {
         return NamespaceWrapper(value: self)
     }
 
-    static var hk: NamespaceWrapper<Self>.Type {
+    static var hand: NamespaceWrapper<Self>.Type {
         return NamespaceWrapper.self
     }
 }
