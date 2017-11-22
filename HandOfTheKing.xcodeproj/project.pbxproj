@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C32E3EA61FC5521E00C910C1 /* RxCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C32E3EA51FC5521E00C910C1 /* RxCocoa.framework */; };
+		C32E3EA81FC5522800C910C1 /* SnapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C32E3EA71FC5522800C910C1 /* SnapKit.framework */; };
+		C32E3EAC1FC5523C00C910C1 /* SnapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C32E3EA91FC5523C00C910C1 /* SnapKit.framework */; };
+		C32E3EAD1FC5523C00C910C1 /* RxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C32E3EAA1FC5523C00C910C1 /* RxSwift.framework */; };
+		C32E3EAE1FC5523C00C910C1 /* RxCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C32E3EAB1FC5523C00C910C1 /* RxCocoa.framework */; };
 		C379E1511E82998D003F00C7 /* HandOfTheKing.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C379E1471E82998D003F00C7 /* HandOfTheKing.framework */; };
 		C379E1581E82998D003F00C7 /* HandOfTheKing.h in Headers */ = {isa = PBXBuildFile; fileRef = C379E14A1E82998D003F00C7 /* HandOfTheKing.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C379E1631E829EEB003F00C7 /* RxCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C379E1621E829EEB003F00C7 /* RxCocoa.framework */; };
@@ -33,6 +38,15 @@
 		C39916631E82C1CA0064EFD0 /* UIViewChain.swift in Sources */ = {isa = PBXBuildFile; fileRef = C39916621E82C1CA0064EFD0 /* UIViewChain.swift */; };
 		C39916651E82C3AE0064EFD0 /* UIColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C39916641E82C3AE0064EFD0 /* UIColorExtension.swift */; };
 		C39916671E82C8610064EFD0 /* StringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C39916661E82C8610064EFD0 /* StringExtension.swift */; };
+		C39A2CF81FC53F2000AF6C50 /* HandOfTheKing_tvOS.h in Headers */ = {isa = PBXBuildFile; fileRef = C39A2CF61FC53F2000AF6C50 /* HandOfTheKing_tvOS.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C39A2D051FC53F3800AF6C50 /* HandOfTheKing_macOS.h in Headers */ = {isa = PBXBuildFile; fileRef = C39A2D031FC53F3800AF6C50 /* HandOfTheKing_macOS.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C39A2D091FC53F7600AF6C50 /* UIViewChain.swift in Sources */ = {isa = PBXBuildFile; fileRef = C39916621E82C1CA0064EFD0 /* UIViewChain.swift */; };
+		C39A2D0B1FC53F7C00AF6C50 /* UIColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C39916641E82C3AE0064EFD0 /* UIColorExtension.swift */; };
+		C39A2D0D1FC53F7F00AF6C50 /* StringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C39916661E82C8610064EFD0 /* StringExtension.swift */; };
+		C39A2D0E1FC53F7F00AF6C50 /* StringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C39916661E82C8610064EFD0 /* StringExtension.swift */; };
+		C39A2D151FC53F9E00AF6C50 /* Namespace.swift in Sources */ = {isa = PBXBuildFile; fileRef = C399165F1E82C1C10064EFD0 /* Namespace.swift */; };
+		C39A2D161FC53F9E00AF6C50 /* Namespace.swift in Sources */ = {isa = PBXBuildFile; fileRef = C399165F1E82C1C10064EFD0 /* Namespace.swift */; };
+		C39A2D191FC5510300AF6C50 /* RxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C39A2D181FC5510300AF6C50 /* RxSwift.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -83,6 +97,11 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		C32E3EA51FC5521E00C910C1 /* RxCocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxCocoa.framework; path = Carthage/Build/tvOS/RxCocoa.framework; sourceTree = "<group>"; };
+		C32E3EA71FC5522800C910C1 /* SnapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SnapKit.framework; path = Carthage/Build/tvOS/SnapKit.framework; sourceTree = "<group>"; };
+		C32E3EA91FC5523C00C910C1 /* SnapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SnapKit.framework; path = Carthage/Build/Mac/SnapKit.framework; sourceTree = "<group>"; };
+		C32E3EAA1FC5523C00C910C1 /* RxSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxSwift.framework; path = Carthage/Build/Mac/RxSwift.framework; sourceTree = "<group>"; };
+		C32E3EAB1FC5523C00C910C1 /* RxCocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxCocoa.framework; path = Carthage/Build/Mac/RxCocoa.framework; sourceTree = "<group>"; };
 		C379E1471E82998D003F00C7 /* HandOfTheKing.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = HandOfTheKing.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C379E14A1E82998D003F00C7 /* HandOfTheKing.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HandOfTheKing.h; sourceTree = "<group>"; };
 		C379E14B1E82998D003F00C7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -103,6 +122,13 @@
 		C39916621E82C1CA0064EFD0 /* UIViewChain.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewChain.swift; sourceTree = "<group>"; };
 		C39916641E82C3AE0064EFD0 /* UIColorExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIColorExtension.swift; sourceTree = "<group>"; };
 		C39916661E82C8610064EFD0 /* StringExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StringExtension.swift; sourceTree = "<group>"; };
+		C39A2CF41FC53F2000AF6C50 /* HandOfTheKing.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = HandOfTheKing.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C39A2CF61FC53F2000AF6C50 /* HandOfTheKing_tvOS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HandOfTheKing_tvOS.h; sourceTree = "<group>"; };
+		C39A2CF71FC53F2000AF6C50 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C39A2D011FC53F3800AF6C50 /* HandOfTheKing.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = HandOfTheKing.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C39A2D031FC53F3800AF6C50 /* HandOfTheKing_macOS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HandOfTheKing_macOS.h; sourceTree = "<group>"; };
+		C39A2D041FC53F3800AF6C50 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C39A2D181FC5510300AF6C50 /* RxSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxSwift.framework; path = Carthage/Build/tvOS/RxSwift.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -135,15 +161,38 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		C39A2CF01FC53F2000AF6C50 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C32E3EA81FC5522800C910C1 /* SnapKit.framework in Frameworks */,
+				C32E3EA61FC5521E00C910C1 /* RxCocoa.framework in Frameworks */,
+				C39A2D191FC5510300AF6C50 /* RxSwift.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C39A2CFD1FC53F3800AF6C50 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C32E3EAE1FC5523C00C910C1 /* RxCocoa.framework in Frameworks */,
+				C32E3EAD1FC5523C00C910C1 /* RxSwift.framework in Frameworks */,
+				C32E3EAC1FC5523C00C910C1 /* SnapKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
 		C379E13D1E82998D003F00C7 = {
 			isa = PBXGroup;
 			children = (
+				C39A2D171FC53FD700AF6C50 /* Core */,
 				C39916611E82C1CA0064EFD0 /* Additions */,
 				C379E1611E829EC1003F00C7 /* Frameworks */,
 				C379E1491E82998D003F00C7 /* HandOfTheKing */,
+				C39A2CF51FC53F2000AF6C50 /* HandOfTheKing-tvOS */,
+				C39A2D021FC53F3800AF6C50 /* HandOfTheKing-macOS */,
 				C379E1541E82998D003F00C7 /* HandOfTheKingTests */,
 				C379E1731E82C008003F00C7 /* Demo */,
 				C379E1481E82998D003F00C7 /* Products */,
@@ -156,6 +205,8 @@
 				C379E1471E82998D003F00C7 /* HandOfTheKing.framework */,
 				C379E1501E82998D003F00C7 /* HandOfTheKingTests.xctest */,
 				C379E1721E82C008003F00C7 /* Demo.app */,
+				C39A2CF41FC53F2000AF6C50 /* HandOfTheKing.framework */,
+				C39A2D011FC53F3800AF6C50 /* HandOfTheKing.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -163,7 +214,6 @@
 		C379E1491E82998D003F00C7 /* HandOfTheKing */ = {
 			isa = PBXGroup;
 			children = (
-				C399165F1E82C1C10064EFD0 /* Namespace.swift */,
 				C379E14A1E82998D003F00C7 /* HandOfTheKing.h */,
 				C379E14B1E82998D003F00C7 /* Info.plist */,
 			);
@@ -182,6 +232,12 @@
 		C379E1611E829EC1003F00C7 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				C32E3EAB1FC5523C00C910C1 /* RxCocoa.framework */,
+				C32E3EAA1FC5523C00C910C1 /* RxSwift.framework */,
+				C32E3EA91FC5523C00C910C1 /* SnapKit.framework */,
+				C32E3EA71FC5522800C910C1 /* SnapKit.framework */,
+				C39A2D181FC5510300AF6C50 /* RxSwift.framework */,
+				C32E3EA51FC5521E00C910C1 /* RxCocoa.framework */,
 				C379E1661E829F01003F00C7 /* SnapKit.framework */,
 				C379E1641E829EF4003F00C7 /* RxSwift.framework */,
 				C379E1621E829EEB003F00C7 /* RxCocoa.framework */,
@@ -212,6 +268,32 @@
 			path = Additions;
 			sourceTree = "<group>";
 		};
+		C39A2CF51FC53F2000AF6C50 /* HandOfTheKing-tvOS */ = {
+			isa = PBXGroup;
+			children = (
+				C39A2CF61FC53F2000AF6C50 /* HandOfTheKing_tvOS.h */,
+				C39A2CF71FC53F2000AF6C50 /* Info.plist */,
+			);
+			path = "HandOfTheKing-tvOS";
+			sourceTree = "<group>";
+		};
+		C39A2D021FC53F3800AF6C50 /* HandOfTheKing-macOS */ = {
+			isa = PBXGroup;
+			children = (
+				C39A2D031FC53F3800AF6C50 /* HandOfTheKing_macOS.h */,
+				C39A2D041FC53F3800AF6C50 /* Info.plist */,
+			);
+			path = "HandOfTheKing-macOS";
+			sourceTree = "<group>";
+		};
+		C39A2D171FC53FD700AF6C50 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				C399165F1E82C1C10064EFD0 /* Namespace.swift */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -223,12 +305,28 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		C39A2CF11FC53F2000AF6C50 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C39A2CF81FC53F2000AF6C50 /* HandOfTheKing_tvOS.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C39A2CFE1FC53F3800AF6C50 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C39A2D051FC53F3800AF6C50 /* HandOfTheKing_macOS.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		C379E1461E82998D003F00C7 /* HandOfTheKing */ = {
+		C379E1461E82998D003F00C7 /* HandOfTheKing-iOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C379E15B1E82998D003F00C7 /* Build configuration list for PBXNativeTarget "HandOfTheKing" */;
+			buildConfigurationList = C379E15B1E82998D003F00C7 /* Build configuration list for PBXNativeTarget "HandOfTheKing-iOS" */;
 			buildPhases = (
 				C379E1421E82998D003F00C7 /* Sources */,
 				C379E1431E82998D003F00C7 /* Frameworks */,
@@ -239,7 +337,7 @@
 			);
 			dependencies = (
 			);
-			name = HandOfTheKing;
+			name = "HandOfTheKing-iOS";
 			productName = HandOfTheKing;
 			productReference = C379E1471E82998D003F00C7 /* HandOfTheKing.framework */;
 			productType = "com.apple.product-type.framework";
@@ -282,6 +380,42 @@
 			productReference = C379E1721E82C008003F00C7 /* Demo.app */;
 			productType = "com.apple.product-type.application";
 		};
+		C39A2CF31FC53F2000AF6C50 /* HandOfTheKing-tvOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C39A2CF91FC53F2000AF6C50 /* Build configuration list for PBXNativeTarget "HandOfTheKing-tvOS" */;
+			buildPhases = (
+				C39A2CEF1FC53F2000AF6C50 /* Sources */,
+				C39A2CF01FC53F2000AF6C50 /* Frameworks */,
+				C39A2CF11FC53F2000AF6C50 /* Headers */,
+				C39A2CF21FC53F2000AF6C50 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "HandOfTheKing-tvOS";
+			productName = "HandOfTheKing-tvOS";
+			productReference = C39A2CF41FC53F2000AF6C50 /* HandOfTheKing.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		C39A2D001FC53F3800AF6C50 /* HandOfTheKing-macOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C39A2D061FC53F3800AF6C50 /* Build configuration list for PBXNativeTarget "HandOfTheKing-macOS" */;
+			buildPhases = (
+				C39A2CFC1FC53F3800AF6C50 /* Sources */,
+				C39A2CFD1FC53F3800AF6C50 /* Frameworks */,
+				C39A2CFE1FC53F3800AF6C50 /* Headers */,
+				C39A2CFF1FC53F3800AF6C50 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "HandOfTheKing-macOS";
+			productName = "HandOfTheKing-macOS";
+			productReference = C39A2D011FC53F3800AF6C50 /* HandOfTheKing.framework */;
+			productType = "com.apple.product-type.framework";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -306,6 +440,14 @@
 						LastSwiftMigration = 0900;
 						ProvisioningStyle = Manual;
 					};
+					C39A2CF31FC53F2000AF6C50 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+					C39A2D001FC53F3800AF6C50 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
 				};
 			};
 			buildConfigurationList = C379E1411E82998D003F00C7 /* Build configuration list for PBXProject "HandOfTheKing" */;
@@ -321,7 +463,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				C379E1461E82998D003F00C7 /* HandOfTheKing */,
+				C379E1461E82998D003F00C7 /* HandOfTheKing-iOS */,
+				C39A2CF31FC53F2000AF6C50 /* HandOfTheKing-tvOS */,
+				C39A2D001FC53F3800AF6C50 /* HandOfTheKing-macOS */,
 				C379E14F1E82998D003F00C7 /* HandOfTheKingTests */,
 				C379E1711E82C008003F00C7 /* Demo */,
 			);
@@ -350,6 +494,20 @@
 				C379E17F1E82C008003F00C7 /* LaunchScreen.storyboard in Resources */,
 				C379E17C1E82C008003F00C7 /* Assets.xcassets in Resources */,
 				C379E17A1E82C008003F00C7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C39A2CF21FC53F2000AF6C50 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C39A2CFF1FC53F3800AF6C50 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -384,17 +542,37 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		C39A2CEF1FC53F2000AF6C50 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C39A2D091FC53F7600AF6C50 /* UIViewChain.swift in Sources */,
+				C39A2D0B1FC53F7C00AF6C50 /* UIColorExtension.swift in Sources */,
+				C39A2D0D1FC53F7F00AF6C50 /* StringExtension.swift in Sources */,
+				C39A2D151FC53F9E00AF6C50 /* Namespace.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C39A2CFC1FC53F3800AF6C50 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C39A2D0E1FC53F7F00AF6C50 /* StringExtension.swift in Sources */,
+				C39A2D161FC53F9E00AF6C50 /* Namespace.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
 		C379E1531E82998D003F00C7 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = C379E1461E82998D003F00C7 /* HandOfTheKing */;
+			target = C379E1461E82998D003F00C7 /* HandOfTheKing-iOS */;
 			targetProxy = C379E1521E82998D003F00C7 /* PBXContainerItemProxy */;
 		};
 		C379E1851E82C034003F00C7 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = C379E1461E82998D003F00C7 /* HandOfTheKing */;
+			target = C379E1461E82998D003F00C7 /* HandOfTheKing-iOS */;
 			targetProxy = C379E1841E82C034003F00C7 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -549,7 +727,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.nswebfrog.HandOfTheKing;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = HandOfTheKing;
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
@@ -576,7 +754,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.nswebfrog.HandOfTheKing;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = HandOfTheKing;
 				SKIP_INSTALL = YES;
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
 				SWIFT_VERSION = 4.0;
@@ -653,6 +831,128 @@
 			};
 			name = Release;
 		};
+		C39A2CFA1FC53F2000AF6C50 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/tvOS",
+				);
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = "HandOfTheKing-tvOS/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.nswebfrog.HandOfTheKing-tvOS";
+				PRODUCT_NAME = HandOfTheKing;
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+			};
+			name = Debug;
+		};
+		C39A2CFB1FC53F2000AF6C50 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/tvOS",
+				);
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = "HandOfTheKing-tvOS/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.nswebfrog.HandOfTheKing-tvOS";
+				PRODUCT_NAME = HandOfTheKing;
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+			};
+			name = Release;
+		};
+		C39A2D071FC53F3800AF6C50 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/Mac",
+				);
+				FRAMEWORK_VERSION = A;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = "HandOfTheKing-macOS/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.nswebfrog.HandOfTheKing-macOS";
+				PRODUCT_NAME = HandOfTheKing;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+			};
+			name = Debug;
+		};
+		C39A2D081FC53F3800AF6C50 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/Mac",
+				);
+				FRAMEWORK_VERSION = A;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = "HandOfTheKing-macOS/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.nswebfrog.HandOfTheKing-macOS";
+				PRODUCT_NAME = HandOfTheKing;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -665,7 +965,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C379E15B1E82998D003F00C7 /* Build configuration list for PBXNativeTarget "HandOfTheKing" */ = {
+		C379E15B1E82998D003F00C7 /* Build configuration list for PBXNativeTarget "HandOfTheKing-iOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C379E15C1E82998D003F00C7 /* Debug */,
@@ -688,6 +988,24 @@
 			buildConfigurations = (
 				C379E1811E82C008003F00C7 /* Debug */,
 				C379E1821E82C008003F00C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C39A2CF91FC53F2000AF6C50 /* Build configuration list for PBXNativeTarget "HandOfTheKing-tvOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C39A2CFA1FC53F2000AF6C50 /* Debug */,
+				C39A2CFB1FC53F2000AF6C50 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C39A2D061FC53F3800AF6C50 /* Build configuration list for PBXNativeTarget "HandOfTheKing-macOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C39A2D071FC53F3800AF6C50 /* Debug */,
+				C39A2D081FC53F3800AF6C50 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

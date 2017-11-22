@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "0900"
+   LastUpgradeVersion = "0910"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "C379E1461E82998D003F00C7"
+               BlueprintIdentifier = "C39A2CF31FC53F2000AF6C50"
                BuildableName = "HandOfTheKing.framework"
-               BlueprintName = "HandOfTheKing"
+               BlueprintName = "HandOfTheKing-tvOS"
                ReferencedContainer = "container:HandOfTheKing.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -29,26 +29,7 @@
       language = ""
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "C379E14F1E82998D003F00C7"
-               BuildableName = "HandOfTheKingTests.xctest"
-               BlueprintName = "HandOfTheKingTests"
-               ReferencedContainer = "container:HandOfTheKing.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
       </Testables>
-      <MacroExpansion>
-         <BuildableReference
-            BuildableIdentifier = "primary"
-            BlueprintIdentifier = "C379E1461E82998D003F00C7"
-            BuildableName = "HandOfTheKing.framework"
-            BlueprintName = "HandOfTheKing"
-            ReferencedContainer = "container:HandOfTheKing.xcodeproj">
-         </BuildableReference>
-      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </TestAction>
@@ -66,9 +47,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "C379E1461E82998D003F00C7"
+            BlueprintIdentifier = "C39A2CF31FC53F2000AF6C50"
             BuildableName = "HandOfTheKing.framework"
-            BlueprintName = "HandOfTheKing"
+            BlueprintName = "HandOfTheKing-tvOS"
             ReferencedContainer = "container:HandOfTheKing.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -84,9 +65,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "C379E1461E82998D003F00C7"
+            BlueprintIdentifier = "C39A2CF31FC53F2000AF6C50"
             BuildableName = "HandOfTheKing.framework"
-            BlueprintName = "HandOfTheKing"
+            BlueprintName = "HandOfTheKing-tvOS"
             ReferencedContainer = "container:HandOfTheKing.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
