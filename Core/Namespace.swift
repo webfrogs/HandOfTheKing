@@ -8,9 +8,9 @@
 
 
 public protocol NamespaceWrappable {
-    associatedtype WrapperType
-    var hand: WrapperType { get }
-    static var hand: WrapperType.Type { get }
+    associatedtype HandWrapperType
+    var hand: HandWrapperType { get }
+    static var hand: HandWrapperType.Type { get }
 }
 
 public extension NamespaceWrappable {
