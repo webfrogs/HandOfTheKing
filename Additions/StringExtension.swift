@@ -44,3 +44,14 @@ extension NamespaceWrapper where T == String {
         return wrappedValue.distance(from: wrappedValue.startIndex, to: to)
     }
 }
+
+extension Substring: NamespaceWrappable {}
+extension NamespaceWrapper where T == Substring {
+    public func index(offsetFromStart: Int) -> String.Index {
+        return wrappedValue.index(wrappedValue.startIndex, offsetBy: offsetFromStart)
+    }
+
+    public func distanceFromStart(to: String.Index) -> String.IndexDistance {
+        return wrappedValue.distance(from: wrappedValue.startIndex, to: to)
+    }
+}
