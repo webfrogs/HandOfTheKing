@@ -16,27 +16,31 @@ extension NamespaceWrapper where T == String {
         return pred.evaluate(with: wrappedValue)
     }
 
-    public func index(by: Int) -> String.Index {
-        return wrappedValue.index(wrappedValue.startIndex, offsetBy: by)
+    public func index(offsetFromStart: Int) -> String.Index {
+        return wrappedValue.index(wrappedValue.startIndex, offsetBy: offsetFromStart)
     }
 
     public func substring(from: Int) -> String {
-        return String(wrappedValue[index(by: from)...])
+        return String(wrappedValue[index(offsetFromStart: from)...])
     }
 
     public func substring(to: Int) -> String {
-        return String(wrappedValue[..<index(by: to)])
+        return String(wrappedValue[..<index(offsetFromStart: to)])
     }
 
     public func substring(with: Range<Int>) -> String {
-        let startIndex = index(by: with.lowerBound)
-        let endIndex = index(by: with.upperBound)
+        let startIndex = index(offsetFromStart: with.lowerBound)
+        let endIndex = index(offsetFromStart: with.upperBound)
         return String(wrappedValue[startIndex..<endIndex])
     }
 
     public func substring(with: CountableClosedRange<Int>) -> String {
-        let startIndex = index(by: with.lowerBound)
-        let endIndex = index(by: with.upperBound)
+        let startIndex = index(offsetFromStart: with.lowerBound)
+        let endIndex = index(offsetFromStart: with.upperBound)
         return String(wrappedValue[startIndex...endIndex])
+    }
+    
+    public func distanceFromStart(to: String.Index) -> String.IndexDistance {
+        return wrappedValue.distance(from: wrappedValue.startIndex, to: to)
     }
 }
