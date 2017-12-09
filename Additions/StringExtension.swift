@@ -51,6 +51,11 @@ extension NamespaceWrapper where T == String {
 
 extension Substring: NamespaceWrappable {}
 extension NamespaceWrapper where T == Substring {
+    public func match(regex: String) -> Bool {
+        let pred = NSPredicate(format: "SELF MATCHES %@", argumentArray:[regex])
+        return pred.evaluate(with: wrappedValue)
+    }
+
     public func index(offsetFromStart: Int) -> String.Index {
         return wrappedValue.index(wrappedValue.startIndex, offsetBy: offsetFromStart)
     }
