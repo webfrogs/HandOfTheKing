@@ -342,9 +342,9 @@
 			productReference = C379E1471E82998D003F00C7 /* HandOfTheKing.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		C379E14F1E82998D003F00C7 /* HandOfTheKingTests */ = {
+		C379E14F1E82998D003F00C7 /* HandOfTheKing-iOSTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C379E15E1E82998D003F00C7 /* Build configuration list for PBXNativeTarget "HandOfTheKingTests" */;
+			buildConfigurationList = C379E15E1E82998D003F00C7 /* Build configuration list for PBXNativeTarget "HandOfTheKing-iOSTests" */;
 			buildPhases = (
 				C379E14C1E82998D003F00C7 /* Sources */,
 				C379E14D1E82998D003F00C7 /* Frameworks */,
@@ -356,7 +356,7 @@
 			dependencies = (
 				C379E1531E82998D003F00C7 /* PBXTargetDependency */,
 			);
-			name = HandOfTheKingTests;
+			name = "HandOfTheKing-iOSTests";
 			productName = HandOfTheKingTests;
 			productReference = C379E1501E82998D003F00C7 /* HandOfTheKingTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
@@ -433,6 +433,7 @@
 					};
 					C379E14F1E82998D003F00C7 = {
 						CreatedOnToolsVersion = 8.2.1;
+						LastSwiftMigration = 0920;
 						ProvisioningStyle = Manual;
 					};
 					C379E1711E82C008003F00C7 = {
@@ -466,7 +467,7 @@
 				C379E1461E82998D003F00C7 /* HandOfTheKing-iOS */,
 				C39A2CF31FC53F2000AF6C50 /* HandOfTheKing-tvOS */,
 				C39A2D001FC53F3800AF6C50 /* HandOfTheKing-macOS */,
-				C379E14F1E82998D003F00C7 /* HandOfTheKingTests */,
+				C379E14F1E82998D003F00C7 /* HandOfTheKing-iOSTests */,
 				C379E1711E82C008003F00C7 /* Demo */,
 			);
 		};
@@ -770,9 +771,10 @@
 				INFOPLIST_FILE = HandOfTheKingTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.nswebfrog.HandOfTheKingTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = HandOfTheKingTests;
 				PROVISIONING_PROFILE_SPECIFIER = "";
-				SWIFT_VERSION = 3.0;
+				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
+				SWIFT_VERSION = 4.0;
 			};
 			name = Debug;
 		};
@@ -785,9 +787,10 @@
 				INFOPLIST_FILE = HandOfTheKingTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.nswebfrog.HandOfTheKingTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = HandOfTheKingTests;
 				PROVISIONING_PROFILE_SPECIFIER = "";
-				SWIFT_VERSION = 3.0;
+				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
+				SWIFT_VERSION = 4.0;
 			};
 			name = Release;
 		};
@@ -974,7 +977,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C379E15E1E82998D003F00C7 /* Build configuration list for PBXNativeTarget "HandOfTheKingTests" */ = {
+		C379E15E1E82998D003F00C7 /* Build configuration list for PBXNativeTarget "HandOfTheKing-iOSTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C379E15F1E82998D003F00C7 /* Debug */,

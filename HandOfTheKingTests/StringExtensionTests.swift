@@ -43,5 +43,13 @@ class StringExtensionTests: XCTestCase {
         XCTAssertEqual(originStr.hand.substring(with: 3...7), "s is ")
         XCTAssertEqual(originStr.hand.substring(with: 1..<8), "his is ")
     }
+
+    func testTrimWhitespaceAndNewline() {
+        XCTAssertEqual("   test".hand.trimWhitespaceAndNewline(), "test")
+        XCTAssertEqual("   test    ".hand.trimWhitespaceAndNewline(), "test")
+        XCTAssertEqual(" \n  test \t".hand.trimWhitespaceAndNewline(), "test")
+        XCTAssertEqual("   te st".hand.trimWhitespaceAndNewline(), "te st")
+        XCTAssertEqual("   t e st \n ".hand.trimWhitespaceAndNewline(), "t e st")
+    }
     
 }

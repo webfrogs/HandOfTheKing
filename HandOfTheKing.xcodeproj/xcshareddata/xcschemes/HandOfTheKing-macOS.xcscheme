@@ -30,6 +30,15 @@
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
       </Testables>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "C39A2D001FC53F3800AF6C50"
+            BuildableName = "HandOfTheKing.framework"
+            BlueprintName = "HandOfTheKing-macOS"
+            ReferencedContainer = "container:HandOfTheKing.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </TestAction>

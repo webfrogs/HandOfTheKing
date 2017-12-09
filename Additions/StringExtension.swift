@@ -11,6 +11,10 @@ import Foundation
 
 extension String: NamespaceWrappable { }
 extension NamespaceWrapper where T == String {
+    public func trimWhitespaceAndNewline() -> String {
+        return wrappedValue.trimmingCharacters(in: .whitespacesAndNewlines)
+    }
+    
     public func match(regex: String) -> Bool {
         let pred = NSPredicate(format: "SELF MATCHES %@", argumentArray:[regex])
         return pred.evaluate(with: wrappedValue)

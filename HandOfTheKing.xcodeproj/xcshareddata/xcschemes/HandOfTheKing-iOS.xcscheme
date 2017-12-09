@@ -29,7 +29,26 @@
       language = ""
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "C379E14F1E82998D003F00C7"
+               BuildableName = "HandOfTheKing-iOSTests.xctest"
+               BlueprintName = "HandOfTheKing-iOSTests"
+               ReferencedContainer = "container:HandOfTheKing.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "C379E1461E82998D003F00C7"
+            BuildableName = "HandOfTheKing.framework"
+            BlueprintName = "HandOfTheKing-iOS"
+            ReferencedContainer = "container:HandOfTheKing.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </TestAction>
