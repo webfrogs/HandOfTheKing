@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "C39A2CF31FC53F2000AF6C50"
+               BlueprintIdentifier = "HandOfTheKing::HandOfTheKing"
                BuildableName = "HandOfTheKing.framework"
-               BlueprintName = "HandOfTheKing-tvOS"
+               BlueprintName = "HandOfTheKing"
                ReferencedContainer = "container:HandOfTheKing.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -45,9 +45,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "C39A2CF31FC53F2000AF6C50"
+            BlueprintIdentifier = "HandOfTheKing::HandOfTheKing"
             BuildableName = "HandOfTheKing.framework"
-            BlueprintName = "HandOfTheKing-tvOS"
+            BlueprintName = "HandOfTheKing"
             ReferencedContainer = "container:HandOfTheKing.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -60,15 +60,6 @@
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
       debugDocumentVersioning = "YES">
-      <MacroExpansion>
-         <BuildableReference
-            BuildableIdentifier = "primary"
-            BlueprintIdentifier = "C39A2CF31FC53F2000AF6C50"
-            BuildableName = "HandOfTheKing.framework"
-            BlueprintName = "HandOfTheKing-tvOS"
-            ReferencedContainer = "container:HandOfTheKing.xcodeproj">
-         </BuildableReference>
-      </MacroExpansion>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">
